@@ -1,0 +1,18 @@
+{
+  "name": "node-html-menu",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests"
+  },
+  "author": "Justin Gorham (justingorham@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "string": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
