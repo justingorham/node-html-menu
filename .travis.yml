@@ -4,7 +4,9 @@ node_js:
 - '0.10'
 deploy:
   provider: npm
+  email: justingorham@gmail.com
   api_key:
-    secure: hPc2IS0LPvuXXSlZRVF3ZJ1ZsBCE4I+Qs86OARRRf2XdF0QiI3wRzydOPaD8GlfR0b1BFw6UEGnT6tJLXFZcZhuIRT9ekVVQUvGhh34pUFVVMffRqc9sE0TC09BzK54b7I8BTbJiG4eIkNqjEJyIZLkXWjEaE1KESehYKNLC2qk=
+    secure: LFlVsbFagNF6C3hseL0t88Jb5z+8dGwW41fzpx7E+xe2ar++6oydYeL1FLg/5GS1ZIHVQ/Zj4D4sg8sAeX8lDfzSqU3DmE5q0ChWls4CKpjLm/gLwK5xYjQCyBTU8SLb3Gn34Kh3hWfvoKt7SbzlihJzwPDoBOuwonMSlzZLsn0=
   on:
     tags: true
+    repo: justingorham/node-html-menu
